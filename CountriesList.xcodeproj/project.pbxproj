@@ -7,17 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C80912E9F12ABD6C224D6C2 /* Pods_CountriesList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E60E7DA8A553CFB085C02BC /* Pods_CountriesList.framework */; };
+		8375ECA8217A4EA400C69E94 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8375ECA7217A4EA400C69E94 /* GoogleService-Info.plist */; };
+		8375ECB2217A507B00C69E94 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375ECA9217A507B00C69E94 /* ActivityIndicator.swift */; };
+		8375ECB3217A507B00C69E94 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375ECAA217A507B00C69E94 /* AlertController.swift */; };
+		8375ECB4217A507B00C69E94 /* Firebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375ECAB217A507B00C69E94 /* Firebase.swift */; };
+		8375ECB5217A507B00C69E94 /* HomeVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375ECAC217A507B00C69E94 /* HomeVController.swift */; };
+		8375ECB6217A507B00C69E94 /* loadURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375ECAD217A507B00C69E94 /* loadURL.swift */; };
+		8375ECB7217A507B00C69E94 /* RSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375ECAE217A507B00C69E94 /* RSView.swift */; };
+		8375ECB8217A507B00C69E94 /* SignInVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375ECAF217A507B00C69E94 /* SignInVController.swift */; };
+		8375ECB9217A507B00C69E94 /* SignUpVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375ECB0217A507B00C69E94 /* SignUpVController.swift */; };
+		8375ECBA217A507B00C69E94 /* SplashVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8375ECB1217A507B00C69E94 /* SplashVController.swift */; };
 		8390E8DA217A4C17008FB6E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390E8D9217A4C17008FB6E5 /* AppDelegate.swift */; };
-		8390E8DC217A4C17008FB6E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8390E8DB217A4C17008FB6E5 /* ViewController.swift */; };
 		8390E8DF217A4C17008FB6E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8390E8DD217A4C17008FB6E5 /* Main.storyboard */; };
 		8390E8E1217A4C17008FB6E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8390E8E0217A4C17008FB6E5 /* Assets.xcassets */; };
 		8390E8E4217A4C17008FB6E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8390E8E2217A4C17008FB6E5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E60E7DA8A553CFB085C02BC /* Pods_CountriesList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CountriesList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADFE094F8C788D3385A47E6 /* Pods-CountriesList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountriesList.release.xcconfig"; path = "Pods/Target Support Files/Pods-CountriesList/Pods-CountriesList.release.xcconfig"; sourceTree = "<group>"; };
+		8094A7CEEED4D27495D414BD /* Pods-CountriesList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CountriesList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CountriesList/Pods-CountriesList.debug.xcconfig"; sourceTree = "<group>"; };
+		8375ECA7217A4EA400C69E94 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8375ECA9217A507B00C69E94 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		8375ECAA217A507B00C69E94 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		8375ECAB217A507B00C69E94 /* Firebase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Firebase.swift; sourceTree = "<group>"; };
+		8375ECAC217A507B00C69E94 /* HomeVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVController.swift; sourceTree = "<group>"; };
+		8375ECAD217A507B00C69E94 /* loadURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadURL.swift; sourceTree = "<group>"; };
+		8375ECAE217A507B00C69E94 /* RSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSView.swift; sourceTree = "<group>"; };
+		8375ECAF217A507B00C69E94 /* SignInVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVController.swift; sourceTree = "<group>"; };
+		8375ECB0217A507B00C69E94 /* SignUpVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpVController.swift; sourceTree = "<group>"; };
+		8375ECB1217A507B00C69E94 /* SplashVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVController.swift; sourceTree = "<group>"; };
 		8390E8D6217A4C17008FB6E5 /* CountriesList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountriesList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8390E8D9217A4C17008FB6E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8390E8DB217A4C17008FB6E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8390E8DE217A4C17008FB6E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8390E8E0217A4C17008FB6E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8390E8E3217A4C17008FB6E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -29,17 +51,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C80912E9F12ABD6C224D6C2 /* Pods_CountriesList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D48536293433C3327F9D79D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E60E7DA8A553CFB085C02BC /* Pods_CountriesList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8375ECBB217A51E200C69E94 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8375ECB1217A507B00C69E94 /* SplashVController.swift */,
+				8375ECAF217A507B00C69E94 /* SignInVController.swift */,
+				8375ECB0217A507B00C69E94 /* SignUpVController.swift */,
+				8375ECAC217A507B00C69E94 /* HomeVController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		8390E8CD217A4C17008FB6E5 = {
 			isa = PBXGroup;
 			children = (
 				8390E8D8217A4C17008FB6E5 /* CountriesList */,
 				8390E8D7217A4C17008FB6E5 /* Products */,
+				9359981A6D3BE19B56F05253 /* Pods */,
+				3D48536293433C3327F9D79D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +99,28 @@
 			isa = PBXGroup;
 			children = (
 				8390E8D9217A4C17008FB6E5 /* AppDelegate.swift */,
-				8390E8DB217A4C17008FB6E5 /* ViewController.swift */,
+				8375ECBB217A51E200C69E94 /* ViewControllers */,
+				8375ECA9217A507B00C69E94 /* ActivityIndicator.swift */,
+				8375ECAA217A507B00C69E94 /* AlertController.swift */,
+				8375ECAB217A507B00C69E94 /* Firebase.swift */,
+				8375ECAD217A507B00C69E94 /* loadURL.swift */,
+				8375ECAE217A507B00C69E94 /* RSView.swift */,
 				8390E8DD217A4C17008FB6E5 /* Main.storyboard */,
 				8390E8E0217A4C17008FB6E5 /* Assets.xcassets */,
 				8390E8E2217A4C17008FB6E5 /* LaunchScreen.storyboard */,
 				8390E8E5217A4C17008FB6E5 /* Info.plist */,
+				8375ECA7217A4EA400C69E94 /* GoogleService-Info.plist */,
 			);
 			path = CountriesList;
+			sourceTree = "<group>";
+		};
+		9359981A6D3BE19B56F05253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8094A7CEEED4D27495D414BD /* Pods-CountriesList.debug.xcconfig */,
+				3ADFE094F8C788D3385A47E6 /* Pods-CountriesList.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8390E8E8217A4C17008FB6E5 /* Build configuration list for PBXNativeTarget "CountriesList" */;
 			buildPhases = (
+				84FD8AB1C13C4412534F3F61 /* [CP] Check Pods Manifest.lock */,
 				8390E8D2217A4C17008FB6E5 /* Sources */,
 				8390E8D3217A4C17008FB6E5 /* Frameworks */,
 				8390E8D4217A4C17008FB6E5 /* Resources */,
+				E9F4F3364B2E3C0721CE6368 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8390E8E4217A4C17008FB6E5 /* LaunchScreen.storyboard in Resources */,
+				8375ECA8217A4EA400C69E94 /* GoogleService-Info.plist in Resources */,
 				8390E8E1217A4C17008FB6E5 /* Assets.xcassets in Resources */,
 				8390E8DF217A4C17008FB6E5 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +193,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		84FD8AB1C13C4412534F3F61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CountriesList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F4F3364B2E3C0721CE6368 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CountriesList/Pods-CountriesList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CountriesList/Pods-CountriesList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8390E8D2217A4C17008FB6E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8390E8DC217A4C17008FB6E5 /* ViewController.swift in Sources */,
+				8375ECB6217A507B00C69E94 /* loadURL.swift in Sources */,
+				8375ECB4217A507B00C69E94 /* Firebase.swift in Sources */,
+				8375ECB5217A507B00C69E94 /* HomeVController.swift in Sources */,
+				8375ECB3217A507B00C69E94 /* AlertController.swift in Sources */,
+				8375ECB2217A507B00C69E94 /* ActivityIndicator.swift in Sources */,
+				8375ECB9217A507B00C69E94 /* SignUpVController.swift in Sources */,
+				8375ECB8217A507B00C69E94 /* SignInVController.swift in Sources */,
 				8390E8DA217A4C17008FB6E5 /* AppDelegate.swift in Sources */,
+				8375ECB7217A507B00C69E94 /* RSView.swift in Sources */,
+				8375ECBA217A507B00C69E94 /* SplashVController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +377,7 @@
 		};
 		8390E8E9217A4C17008FB6E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8094A7CEEED4D27495D414BD /* Pods-CountriesList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CountriesList/Info.plist;
@@ -272,6 +390,7 @@
 		};
 		8390E8EA217A4C17008FB6E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADFE094F8C788D3385A47E6 /* Pods-CountriesList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CountriesList/Info.plist;
@@ -301,6 +420,7 @@
 				8390E8EA217A4C17008FB6E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
